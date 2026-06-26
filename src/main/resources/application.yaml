@@ -1,3 +1,18 @@
 spring:
-  application:
-    name: JavaDemoBucket
+  main.banner-mode: off
+  application.name: JavaDemoBucket
+  threads.virtual.enabled: true
+  datasource:
+    url: jdbc:mariadb://ec2-18-229-5-68.sa-east-1.compute.amazonaws.com:3306/database-1
+    username: admin
+    password: 12345678
+    driver-class-name: org.mariadb.jdbc.Driver
+  jpa:
+    show-sql: true
+    properties.hibernate:
+      format_sql: false
+      dialect: org.hibernate.dialect.MariaDBDialect
+    hibernate:
+      ddl-auto: update
+
+logging.level.org.hibernate.orm.jdbc.bind: TRACE
