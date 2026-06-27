@@ -1,7 +1,7 @@
-package bucket.demo.dynamo.sql.controller;
+package bucket.demo.sql.controller;
 
-import bucket.demo.dynamo.sql.entity.Usuario;
-import bucket.demo.dynamo.sql.repository.UsuarioRepository;
+import bucket.demo.sql.entity.Usuario;
+import bucket.demo.sql.repository.UsuarioRepository;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.DeleteMapping;
 import org.springframework.web.bind.annotation.GetMapping;

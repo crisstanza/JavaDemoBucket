@@ -1,4 +1,4 @@
-package bucket.demo.dynamo.sql.entity;
+package bucket.demo.sql.entity;
 
 import jakarta.persistence.*;
 
