@@ -2,7 +2,7 @@
   <configuration default="false" name="JavaDemoBucketApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
     <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UnknownPolicyInFreeMode" />
     <module name="JavaDemoBucket" />
-    <option name="SPRING_BOOT_MAIN_CLASS" value="bucket.demo.JavaDemoBucketApplication" />
+    <option name="SPRING_BOOT_MAIN_CLASS" value="com.aws.class3.JavaDemoBucketApplication" />
     <extension name="coverage">
       <pattern>
         <option name="PATTERN" value="bucket.demo.*" />
